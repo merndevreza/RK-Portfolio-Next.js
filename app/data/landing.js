@@ -15,211 +15,160 @@ import projectImg8 from "@/public/assets/projects/project8.png";
 import projectImg9 from "@/public/assets/projects/project9.png";
 import userImg1 from "@/public/assets/user1.png";
 import userImg2 from "@/public/assets/user2.png";
-
 export const getHeroData = {
-  welcome: "Hi I am",
-  name: "Muhammad Umair",
-  designationLine1: "UI & UX",
-  designationLine2: "Designer",
+  welcome: "Hi, I am",
+  name: "Rezaul Karim",
+  designationLine1: "Next.js",
+  designationLine2: "Developer",
   description:
-    "Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium. Turpis tempus pharetra",
+    "Frontend-heavy Full-Stack Developer with 5+ years of experience building scalable SaaS dashboards, secure authentication systems, and high-performance web applications using the Next.js ecosystem.",
   btnLink: "#contact",
-  img: heroImgWithShape,
+  img: heroImgWithShape, // Replace with your professional headshot
 };
+
 export const getAboutData = {
   sectionTitle: "About Me",
   subtitle:
-    "Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium. Turpis tempus pharetra",
+    "I specialize in building modern, production-ready applications with React, TypeScript, and Node.js. With a proven track record of delivering 95+ projects and working with US-based remote teams, I focus on clean architecture and performance optimization.",
   img: aboutImgWithShape,
-  alt: "Muhammad Umair",
+  alt: "Rezaul Karim - Next.js Developer",
   skills: [
     {
-      name: "UX",
+      name: "React & Next.js",
+      percentage: 98,
+    },
+    {
+      name: "TypeScript",
       percentage: 90,
     },
     {
-      name: "Website Design",
-      percentage: 70,
+      name: "MERN-Stack",
+      percentage: 85,
     },
     {
-      name: "Design",
-      percentage: 95,
+      name: "Authentication & Security",
+      percentage: 96,
     },
     {
-      name: "Graphic Design",
-      percentage: 88,
+      name: "Performance & SEO",
+      percentage: 98,
     },
   ],
 };
+
 export const getServicesData = {
-  sectionTitle: "Services",
+  sectionTitle: "Expertise",
   subtitle:
-    "Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium",
+    "Delivering high-quality software solutions tailored for performance, security, and scalability.",
   services: [
     {
       icon: serviceIcon1,
-      title: "UI/UX",
+      title: "Frontend Development",
       description:
-        "Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam interdum",
+        "Building responsive, accessible, and SEO-optimized interfaces using Tailwind CSS, Shadcn/ui, and Framer Motion.",
     },
     {
       icon: serviceIcon2,
-      title: "Web Design",
+      title: "SaaS & Dashboards",
       description:
-        "Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam interdum",
+        "Developing complex internal tools and SaaS platforms with real-time data visualization and automated workflows.",
     },
     {
       icon: serviceIcon3,
-      title: "App Design",
+      title: "Full-Stack Solutions",
       description:
-        "Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam interdum",
+        "End-to-end development using the MERN stack and Next.js Server Actions with secure database integration.",
     },
     {
       icon: serviceIcon4,
-      title: "Graphic Design",
+      title: "Auth & Security",
       description:
-        "Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam interdum",
+        "Implementing robust security with NextAuth, JWT, HttpOnly cookies, and Role-Based Access Control (RBAC).",
     },
   ],
 };
+
 export const getProjectData = {
-  sectionTitle: "My Projects",
+  sectionTitle: "Featured Projects",
   subtitle:
-    "Lorem ipsum dolor sit amet consectetur. Mollis erat duis aliquam mauris est risus lectus. Phasellus consequat urna tellus",
+    "A selection of my recent work, ranging from AI-powered platforms to complex SaaS dashboards.",
   projects: [
-    
     {
       id: crypto.randomUUID(),
-      title: "AirCalling Landing Page UI",
+      title: "Team Pulse - Recognition Platform",
       img: projectImg1,
-      liveUrl: "#",
-      category: "App Design",
+      liveUrl: "#", // Add your link
+      category: "Full-Stack",
     },
     {
       id: crypto.randomUUID(),
-      title: "AirCalling Landing Page UI",
+      title: "Meter Watch - SaaS Dashboard",
       img: projectImg2,
-      liveUrl: "#",
-      category: "App Design",
+      liveUrl: "#", // Add your link
+      category: "Next.js",
     },
     {
       id: crypto.randomUUID(),
-      title: "AirCalling Landing Page UI",
+      title: "Book Nest - E-Commerce",
       img: projectImg3,
-      liveUrl: "#",
-      category: "UI/UX",
+      liveUrl: "#", // Add your link
+      category: "MERN Stack",
     },
-    
     {
       id: crypto.randomUUID(),
-      title: "AirCalling Landing Page UI",
+      title: "AI-Powered Feedback Tool",
       img: projectImg4,
       liveUrl: "#",
-      category: "UI/UX",
+      category: "AI Integration",
     },
     {
       id: crypto.randomUUID(),
-      title: "AirCalling Landing Page UI",
+      title: "Location Finder App",
       img: projectImg5,
       liveUrl: "#",
-      category: "Web Design",
+      category: "React / Redux",
     },
     {
       id: crypto.randomUUID(),
-      title: "AirCalling Landing Page UI",
+      title: "Internal Business Management",
       img: projectImg6,
       liveUrl: "#",
-      category: "Web Design",
-    },
-   
-    {
-      id: crypto.randomUUID(),
-      title: "AirCalling Landing Page UI",
-      img: projectImg7,
-      liveUrl: "#",
-      category: "Graphic Design",
-    },
-    {
-      id: crypto.randomUUID(),
-      title: "AirCalling Landing Page UI",
-      img: projectImg8,
-      liveUrl: "#",
-      category: "Graphic Design",
-    },
-    {
-      id: crypto.randomUUID(),
-      title: "AirCalling Landing Page UI",
-      img: projectImg9,
-      liveUrl: "#",
-      category: "Graphic Design",
+      category: "Full-Stack",
     },
   ],
 };
+
 export const getTestimonialData = {
-  sectionTitle: "Testimonials",
+  sectionTitle: "Recommendations",
   subtitle:
-    "Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium",
+    "Trusted by industry leaders and clients for delivering exceptional code quality and reliability.",
   testimonials: [
     {
-      name: "Tanjila",
-      designation: "Manager",
+      name: "Patricia Montecchiarini",
+      designation: "Head of Development, Lexaeon",
       review:
-        "Lorem ipsum dolor sit amet consectetur. In enim cursus odio accumsan. Id leo urna velit neque mattis id tellus arcu condimentum. Augue dictum dolor elementum convallis dignissim malesuada commodo ultrices.",
-      img: userImg2,
-    },
-    {
-      name: "Naim",
-      designation: "CEO",
-      review:
-        "Lorem ipsum dolor sit amet consectetur. In enim cursus odio accumsan. Id leo urna velit neque mattis id tellus arcu condimentum. Augue dictum dolor elementum convallis dignissim malesuada commodo ultrices.",
+        "Rezaul is an exceptional developer who led our frontend architecture and delivered over 30 production applications with consistent quality.",
       img: userImg1,
     },
     {
-      name: "Rasel",
-      designation: "Developer",
+      name: "Sumit Saha",
+      designation: "Founder, Learn With Sumit",
       review:
-        "Lorem ipsum dolor sit amet consectetur. In enim cursus odio accumsan. Id leo urna velit neque mattis id tellus arcu condimentum. Augue dictum dolor elementum convallis dignissim malesuada commodo ultrices.",
-      img: userImg1,
-    },
-    {
-      name: "Sagor",
-      designation: "HR",
-      review:
-        "Lorem ipsum dolor sit amet consectetur. In enim cursus odio accumsan. Id leo urna velit neque mattis id tellus arcu condimentum. Augue dictum dolor elementum convallis dignissim malesuada commodo ultrices.",
+        "A highly skilled and dedicated developer with a deep understanding of the React and Next.js ecosystem.",
       img: userImg2,
     },
-    
     {
-      name: "Tanjila",
-      designation: "Manager",
+      name: "Fiverr Client",
+      designation: "Verified Client",
       review:
-        "Lorem ipsum dolor sit amet consectetur. In enim cursus odio accumsan. Id leo urna velit neque mattis id tellus arcu condimentum. Augue dictum dolor elementum convallis dignissim malesuada commodo ultrices.",
-      img: userImg2,
-    },{
-      name: "Naim",
-      designation: "CEO",
-      review:
-        "Lorem ipsum dolor sit amet consectetur. In enim cursus odio accumsan. Id leo urna velit neque mattis id tellus arcu condimentum. Augue dictum dolor elementum convallis dignissim malesuada commodo ultrices.",
+        "Exceptional work on my e-commerce project. The performance and attention to detail surpassed my expectations.",
       img: userImg1,
-    },
-    {
-      name: "Rasel",
-      designation: "Developer",
-      review:
-        "Lorem ipsum dolor sit amet consectetur. In enim cursus odio accumsan. Id leo urna velit neque mattis id tellus arcu condimentum. Augue dictum dolor elementum convallis dignissim malesuada commodo ultrices.",
-      img: userImg1,
-    },
-    {
-      name: "Sagor",
-      designation: "HR",
-      review:
-        "Lorem ipsum dolor sit amet consectetur. In enim cursus odio accumsan. Id leo urna velit neque mattis id tellus arcu condimentum. Augue dictum dolor elementum convallis dignissim malesuada commodo ultrices.",
-      img: userImg2,
     },
   ],
 };
+
 export const getCTAData = {
-  sectionTitle: "Lets Design Together",
+  sectionTitle: "Let’s Build Something Great Together",
   subtitle:
-    "Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium",
+    "Currently open to remote opportunities and international relocation. Let's discuss how I can contribute to your team.",
 };

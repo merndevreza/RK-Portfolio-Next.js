@@ -3,8 +3,8 @@ import "./globals.css";
 import { poppins, montserrat } from "./fonts"; 
 
 export const metadata = {
-  title: "Mumair",
-  description: "Portfolio of Mumair",
+  title: "Rezaul Karim - Next.js Developer",
+  description: "Portfolio of Rezaul Karim",
 };
 
 export default function RootLayout({ children }) {

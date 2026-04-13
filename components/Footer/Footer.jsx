@@ -44,7 +44,7 @@ const Footer = () => {
          <NavigationLinks paths={navLinks}/>
          <SocialProfiles/>
          </div>
-         <FooterCopyright year={2023} admin="Mumair" info="All Rights Reserved , Inc."/>
+         <FooterCopyright admin="Rezaul Karim" info="All Rights Reserved , Inc."/>
       </footer>
    );
 };
